@@ -57,23 +57,30 @@
 </div>
 </div>
 <!-- Top App Header -->
-<header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 px-4 py-2.5 flex items-center justify-between shadow-sm">
-<div class="flex items-center space-x-2.5">
-<img alt="Helping Hands Bhimad Logo" class="w-10 h-10 object-contain rounded-full shadow-sm bg-white p-0.5 border border-slate-200 cursor-pointer" onclick="openLightbox(this.src, 'सहयोगी हातहरू भिमाद आधिकारिक लोगो')" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4Xpim8vukOsa1POaWR3_CYBE6Bf0Jm88kektGwg_W3gNQBPXgpv9rzJnNewDKL8mZwE6svqh4YYQurSDxvyl2pvgBZYzFC9vij-LJjdjq2EgbsPFT-vsRkwA-jtlXw3uNUZVmnJXrQxzC-mMHxWPt_Izxl_aepOM5RCkb1Hy3ZKAAR76ufUcEYFzM_dCeOheTaAJWx37Q2D8mMlwwYDTlIU2_CcEg691xIdwS6H9FKsjOn_p-2uM1Ynnf7zNeuvNgxQ"/>
-<div>
-<h1 class="text-sm font-bold text-slate-900 leading-tight" data-i18n="brandTitle">सहयोगी हातहरू</h1>
-<p class="text-[11px] text-slate-500 font-medium" data-i18n="brandSubtitle">भिमाद-६, तनहुँ</p>
-</div>
-</div>
+<header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 px-3 py-2 flex items-center justify-between shadow-sm">
 <div class="flex items-center space-x-2">
-<button class="px-2.5 py-1 text-xs font-bold bg-slate-100 text-slate-700 hover:text-blue-700 rounded-lg hover:bg-slate-200 transition border border-slate-200" id="langToggleBtn" onclick="toggleLanguage()">
+<img alt="Helping Hands Bhimad Logo" class="w-10 h-10 object-contain rounded-full shadow-sm bg-white p-0.5 border border-slate-200 cursor-pointer shrink-0" onclick="openLightbox(this.src, 'सहयोगी हातहरू भिमाद आधिकारिक लोगो')" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4Xpim8vukOsa1POaWR3_CYBE6Bf0Jm88kektGwg_W3gNQBPXgpv9rzJnNewDKL8mZwE6svqh4YYQurSDxvyl2pvgBZYzFC9vij-LJjdjq2EgbsPFT-vsRkwA-jtlXw3uNUZVmnJXrQxzC-mMHxWPt_Izxl_aepOM5RCkb1Hy3ZKAAR76ufUcEYFzM_dCeOheTaAJWx37Q2D8mMlwwYDTlIU2_CcEg691xIdwS6H9FKsjOn_p-2uM1Ynnf7zNeuvNgxQ"/>
+<div class="truncate">
+<h1 class="text-xs font-bold text-slate-900 leading-tight truncate" data-i18n="brandTitle">Helping Hands Digital Portal</h1>
+<p class="text-[10px] text-slate-500 font-medium truncate" data-i18n="brandSubtitle">भिमाद-६, तनहुँ</p>
+</div>
+</div>
+<div class="flex items-center space-x-1.5 shrink-0">
+<!-- Social Icons in Header -->
+<a class="w-7 h-7 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center hover:bg-blue-100 transition border border-blue-100" href="https://www.facebook.com/share/19jfkozV6g/?mibextid=wwXIfr" rel="noopener noreferrer" target="_blank" title="Facebook">
+<i class="fa-brands fa-facebook-f text-xs"></i>
+</a>
+<a class="w-7 h-7 rounded-full bg-slate-900 text-white flex items-center justify-center hover:bg-slate-800 transition" href="https://www.tiktok.com/@helping.hands.bhimad?_r=1&amp;_t=ZS-9AYLglpjtsy" rel="noopener noreferrer" target="_blank" title="TikTok">
+<i class="fa-brands fa-tiktok text-xs"></i>
+</a>
+<button class="px-2 py-1 text-[11px] font-bold bg-slate-100 text-slate-700 hover:text-blue-700 rounded-lg hover:bg-slate-200 transition border border-slate-200" id="langToggleBtn" onclick="toggleLanguage()">
         नेपाली | EN
       </button>
-<a class="w-8 h-8 rounded-full bg-slate-100 text-slate-700 flex items-center justify-center hover:bg-slate-200 transition" href="tel:+9779816623823" title="Call Us">
-<i class="fa-solid fa-phone text-xs"></i>
+<a class="w-7 h-7 rounded-full bg-slate-100 text-slate-700 flex items-center justify-center hover:bg-slate-200 transition" href="tel:+9779816623823" title="Call Us">
+<i class="fa-solid fa-phone text-[10px]"></i>
 </a>
-<a class="px-3 py-1.5 bg-emerald-700 text-white text-xs font-semibold rounded-lg shadow-sm hover:bg-emerald-800 transition flex items-center space-x-1" href="#bankSection">
-<i class="fa-solid fa-hand-holding-heart text-xs"></i>
+<a class="px-2.5 py-1 bg-emerald-700 text-white text-[11px] font-semibold rounded-lg shadow-sm hover:bg-emerald-800 transition flex items-center space-x-1" href="#bankSection">
+<i class="fa-solid fa-hand-holding-heart text-[10px]"></i>
 <span data-i18n="donateBtn">सहयोग</span>
 </a>
 </div>
@@ -89,7 +96,7 @@
 </div>
 <!-- Hero Header & Motto -->
 <div>
-<h2 class="text-xl font-extrabold text-slate-900 tracking-tight" data-i18n="heroTitle">सहयोगी हातहरू गैर-नाफामूलक संस्था</h2>
+<h2 class="text-xl font-extrabold text-slate-900 tracking-tight" data-i18n="heroTitle">Helping Hands (Non Profit Organization) Digital Portal / सहयोगी हातहरू</h2>
 <p class="text-xs text-slate-500 flex items-center gap-1 mt-0.5">
 <i class="fa-solid fa-location-dot text-rose-500"></i>
 <span data-i18n="location">भिमाद नगरपालिका-६, तनहुँ, गण्डकी प्रदेश, नेपाल</span>
@@ -188,12 +195,12 @@
         </div>
 </div>
 </div>
-<!-- Official Fonepay QR & Bank Account Section -->
-<div class="bg-gradient-to-br from-blue-900 to-indigo-950 text-white rounded-2xl p-4 shadow-lg relative overflow-hidden" id="bankSection">
+<!-- Official Fonepay QR, Bank Account & Digital Wallets Section -->
+<div class="bg-gradient-to-br from-blue-900 via-indigo-950 to-slate-900 text-white rounded-2xl p-4 shadow-lg relative overflow-hidden" id="bankSection">
 <div class="absolute -right-6 -bottom-6 w-28 h-28 bg-white/5 rounded-full pointer-events-none"></div>
 <div class="flex items-center justify-between mb-3">
 <div>
-<span class="text-[10px] font-bold tracking-wider uppercase text-blue-200 bg-white/10 px-2 py-0.5 rounded" data-i18n="bankBadge">आधिकारिक बैंक तथा Fonepay QR</span>
+<span class="text-[10px] font-bold tracking-wider uppercase text-blue-200 bg-white/10 px-2 py-0.5 rounded" data-i18n="bankBadge">आधिकारिक भुक्तानी खाता (FONEPAY QR) / Official Payment (Fonepay QR)</span>
 <h4 class="text-sm font-bold text-white mt-1" data-i18n="bankOrgTitle">सहयोगी हातहरू गैर-नाफामूलक संस्था</h4>
 </div>
 <div class="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center text-white">
@@ -215,17 +222,35 @@
 </button>
 </div>
 </div>
-<!-- Bank Details -->
-<div class="bg-white/10 rounded-xl p-3 border border-white/10 backdrop-blur-sm flex items-center justify-between">
-<div>
-<span class="text-[10px] text-blue-200 block" data-i18n="bankDetailsDesc">नेपाल बैंक / राष्ट्रिय वाणिज्य बैंक (भिमाद शाखा)</span>
-<span class="text-base font-extrabold tracking-wider text-emerald-300 font-mono" id="accNumber">०८२००१००२५८१४१</span>
+<!-- eSewa & Khalti Digital Wallet Integration -->
+<div class="bg-white/10 backdrop-blur-md rounded-xl p-3 border border-white/15 mb-3 space-y-2">
+<div class="flex items-center justify-between">
+<span class="text-[11px] font-bold text-white flex items-center gap-1.5">
+<i class="fa-solid fa-wallet text-amber-300"></i>
+<span data-i18n="walletHeader">डिजिटल वालेट (eSewa / Khalti)</span>
+</span>
+<span class="text-[9px] font-bold px-2 py-0.5 bg-emerald-500/20 text-emerald-300 rounded-full border border-emerald-400/30">तत्काल स्थानान्तरण</span>
 </div>
-<button class="px-2.5 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold rounded-lg flex items-center gap-1 transition shadow" onclick="copyAccount()">
-<i class="fa-regular fa-copy text-xs"></i> <span data-i18n="copyBtn">कपी</span>
+<div class="flex items-center justify-between bg-black/25 px-2.5 py-1.5 rounded-lg border border-white/10">
+<div class="flex items-center gap-2">
+<span class="text-xs font-bold text-emerald-400 font-mono tracking-wide" id="walletIdVal">9816623823</span>
+<span class="text-[10px] text-slate-300 font-medium">(eSewa / Khalti ID: ९८१६६२३८२३)</span>
+</div>
+<button class="text-[10px] font-bold bg-white text-slate-900 px-2 py-0.5 rounded shadow hover:bg-slate-100 transition flex items-center gap-1 shrink-0" onclick="copyWalletID()">
+<i class="fa-regular fa-copy text-[9px]"></i> <span id="copyWalletText">Copy ID</span>
 </button>
 </div>
-<div class="flex items-center justify-between text-[11px] text-blue-200 mt-3 pt-2 border-t border-white/10">
+<div class="grid grid-cols-2 gap-2 pt-0.5 text-[10px]">
+<div class="bg-white/5 px-2 py-1 rounded border border-white/10 flex items-center gap-1.5 text-emerald-200">
+<i class="fa-solid fa-circle-check text-emerald-400 text-[9px]"></i> eSewa: 9816623823
+</div>
+<div class="bg-white/5 px-2 py-1 rounded border border-white/10 flex items-center gap-1.5 text-purple-200">
+<i class="fa-solid fa-circle-check text-purple-400 text-[9px]"></i> Khalti: 9816623823
+</div>
+</div>
+</div>
+<!-- Bank Details & Quick Contacts -->
+<div class="flex items-center justify-between text-[11px] text-blue-200 pt-2 border-t border-white/10">
 <a class="flex items-center gap-1 hover:text-white" href="tel:+9779816623823">
 <i class="fa-solid fa-phone text-[10px]"></i> +९७७ ९८१६६२३८२३
         </a>
@@ -534,11 +559,12 @@
         </span>
 </div>
 </div>
-<!-- Contact & Official Help Line -->
+<!-- Contact & Official Help Line with Social Links -->
 <div class="bg-white rounded-2xl border border-slate-200 p-4 shadow-sm text-center space-y-3">
 <h3 class="text-xs font-bold text-slate-900 uppercase tracking-wide" data-i18n="contactHeading">संस्थागत सम्पर्क तथा सहायता समन्वय</h3>
 <p class="text-xs text-slate-600 leading-relaxed" data-i18n="contactText">कुनै पनि आर्थिक वा राहत सहयोगको तत्काल प्रमाणीकरणको लागि संस्थाको आधिकारिक प्रतिनिधिहरूसँग सम्पर्क गर्न सकिन्छ।</p>
-<div class="flex items-center justify-center gap-2 pt-1">
+<!-- Phone & WhatsApp -->
+<div class="flex items-center justify-center gap-2 pt-1 flex-wrap">
 <a class="px-3.5 py-2 bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold rounded-xl flex items-center gap-1.5 shadow transition" href="tel:+9779816623823">
 <i class="fa-solid fa-phone"></i> +९७७ ९८१६६२३८२३
         </a>
@@ -546,9 +572,30 @@
 <i class="fa-brands fa-whatsapp"></i> WhatsApp / Viber
         </a>
 </div>
+<!-- Official Social Links -->
+<div class="pt-2 border-t border-slate-100">
+<p class="text-[10px] font-semibold text-slate-500 mb-2 uppercase tracking-wider" data-i18n="socialHeader">आधिकारिक सामाजिक सञ्जालहरू</p>
+<div class="flex items-center justify-center gap-2.5">
+<a class="px-4 py-2 bg-[#1877F2] hover:bg-[#166fe5] text-white text-xs font-bold rounded-xl flex items-center gap-2 shadow-sm transition" href="https://www.facebook.com/share/19jfkozV6g/?mibextid=wwXIfr" rel="noopener noreferrer" target="_blank">
+<i class="fa-brands fa-facebook text-sm"></i> <span>Facebook</span>
+</a>
+<a class="px-4 py-2 bg-slate-950 hover:bg-slate-800 text-white text-xs font-bold rounded-xl flex items-center gap-2 shadow-sm transition" href="https://www.tiktok.com/@helping.hands.bhimad?_r=1&amp;_t=ZS-9AYLglpjtsy" rel="noopener noreferrer" target="_blank">
+<i class="fa-brands fa-tiktok text-sm"></i> <span>TikTok</span>
+</a>
+</div>
+</div>
 </div>
 <!-- Legal & Transparency Footer -->
 <footer class="pt-4 pb-2 text-center text-slate-400 text-[11px] space-y-1">
+<div class="flex items-center justify-center gap-3 text-slate-500 pb-1">
+<a class="hover:text-blue-600 flex items-center gap-1" href="https://www.facebook.com/share/19jfkozV6g/?mibextid=wwXIfr" rel="noopener noreferrer" target="_blank">
+<i class="fa-brands fa-facebook"></i> Facebook
+      </a>
+<span>•</span>
+<a class="hover:text-slate-900 flex items-center gap-1" href="https://www.tiktok.com/@helping.hands.bhimad?_r=1&amp;_t=ZS-9AYLglpjtsy" rel="noopener noreferrer" target="_blank">
+<i class="fa-brands fa-tiktok"></i> TikTok
+      </a>
+</div>
 <p data-i18n="footerCopy">© 2082/2083 सहयोगी हातहरू गैर-नाफामूलक संस्था, भिमाद-६, तनहुँ</p>
 <p data-i18n="footerEngine">Digitally Signed &amp; Powered by Radical Transparency Engine</p>
 </footer>
@@ -768,8 +815,9 @@
       pillarBankVal: "रु १,८३,६४४",
       pillarBankSub: "सुरक्षित कोष",
       voucherVerificationText: '<span class="font-bold text-slate-800">प्रत्यक्ष बिल तथा फिल्ड भौचर प्रमाणित:</span> सबै २२ सक्कल बिल, १८ डायरी खर्च र १९ संस्थागत/दर्ता खर्च पूर्ण प्रमाणित छन्।',
-      bankBadge: "आधिकारिक बैंक तथा Fonepay QR",
+      bankBadge: "आधिकारिक भुक्तानी खाता (FONEPAY QR)",
       bankOrgTitle: "सहयोगी हातहरू गैर-नाफामूलक संस्था",
+      walletHeader: "डिजिटल वालेट (eSewa / Khalti)",
       qrEnlarge: "QR ठूलो बनाएर हेर्नुहोस्",
       bankDetailsDesc: "नेपाल बैंक / राष्ट्रिय वाणिज्य बैंक (भिमाद शाखा)",
       copyBtn: "कपी",
@@ -831,6 +879,7 @@
       advisorBadge: '<i class="fa-solid fa-circle-check text-emerald-600"></i> सल्लाहकार (Advisory)',
       contactHeading: "संस्थागत सम्पर्क तथा सहायता समन्वय",
       contactText: "कुनै पनि आर्थिक वा राहत सहयोगको तत्काल प्रमाणीकरणको लागि संस्थाको आधिकारिक प्रतिनिधिहरूसँग सम्पर्क गर्न सकिन्छ।",
+      socialHeader: "आधिकारिक सामाजिक सञ्जालहरू",
       footerCopy: "© 2082/2083 सहयोगी हातहरू गैर-नाफामूलक संस्था, भिमाद-६, तनहुँ",
       footerEngine: "Digitally Signed & Powered by Radical Transparency Engine",
       navHome: "गृहपृष्ठ",
@@ -875,8 +924,9 @@
       pillarBankVal: "NPR 1,83,644",
       pillarBankSub: "Secure Reserves",
       voucherVerificationText: '<span class="font-bold text-slate-800">Verified Direct Receipts & Field Vouchers:</span> All 22 original bills, 18 field diary expenses, and 19 institutional registration costs fully validated.',
-      bankBadge: "Official Bank & Fonepay QR",
+      bankBadge: "Official Payment (Fonepay QR)",
       bankOrgTitle: "Helping Hands Non-Profit Organization",
+      walletHeader: "Digital Wallets (eSewa / Khalti)",
       qrEnlarge: "View & Enlarge QR Code",
       bankDetailsDesc: "Nepal Bank / Rastriya Banijya Bank (Bhimad Branch)",
       copyBtn: "Copy",
@@ -938,6 +988,7 @@
       advisorBadge: '<i class="fa-solid fa-circle-check text-emerald-600"></i> Advisor (Advisory)',
       contactHeading: "Official Communication & Aid Verification",
       contactText: "For instant verification of any donation or emergency aid request, feel free to contact official representatives.",
+      socialHeader: "Official Social Media",
       footerCopy: "© 2082/2083 Helping Hands Non-Profit Organization, Bhimad-6, Tanahun",
       footerEngine: "Digitally Signed & Powered by Radical Transparency Engine",
       navHome: "Home",
@@ -1101,10 +1152,17 @@
     document.body.removeChild(link);
   }
 
-  function copyAccount() {
-    const acc = document.getElementById('accNumber').innerText;
-    navigator.clipboard.writeText(acc).then(() => {
-      alert(isEnglish ? ("Bank account number copied: " + acc) : ("बैंक खाता नम्बर सफलतापूर्वक कपी गरियो: " + acc));
+  function copyWalletID() {
+    const val = document.getElementById('walletIdVal').innerText;
+    navigator.clipboard.writeText(val).then(() => {
+      const copyText = document.getElementById('copyWalletText');
+      if (copyText) {
+        copyText.innerText = isEnglish ? "Copied!" : "कपी भयो!";
+        setTimeout(() => {
+          copyText.innerText = isEnglish ? "Copy ID" : "Copy ID";
+        }, 2000);
+      }
+      alert(isEnglish ? ("eSewa / Khalti ID copied: " + val) : ("eSewa तथा Khalti ID कपी गरियो: " + val));
     });
   }
 
